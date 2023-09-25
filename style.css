@@ -1,0 +1,10 @@
+.heroimg {
+
+    background-image: url(https://c8.alamy.com/comp/2B1YHE3/cartoon-business-cats-shaking-hands-in-agreement-with-hand-in-like-gesture-successful-businessmen-team-concept-vector-illustration-isolated-on-white-2B1YHE3.jpg);
+    height: 100vh;
+    z-index: -1;
+}
+
+.txtovrimg {
+    z-index: 1;
+}
