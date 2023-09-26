@@ -1,14 +1,37 @@
 .heroimg {
 
     background-image: url(https://c8.alamy.com/comp/2B1YHE3/cartoon-business-cats-shaking-hands-in-agreement-with-hand-in-like-gesture-successful-businessmen-team-concept-vector-illustration-isolated-on-white-2B1YHE3.jpg);
-    height: 100vh;
-    z-index: -1;
+    min-height: 75dvh;
+    background-size: cover;
+    background-position: center;
+
+
+
 }
 
-.txtovrimg {
-    z-index: 1;
-}
 
 .coolfont {
     font-family: 'Sedgwick Ave Display', cursive;
 }
+
+
+.herobg {
+    background-color: lightgrey;
+}
+
+.icons1 {
+    position: relative;
+    bottom: 0%;
+    left: 0%;
+    top: 45%;
+    right: 0%
+}
+
+
+@media (max-width: 767px) {
+    .imgStuff {
+        display: none
+    }
+}
+
+/* TODO set up a media rule here that will change the display property on your spill card for mobile view. Aloha lecture has some examples of this */

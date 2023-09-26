@@ -41,28 +41,9 @@
     <main class="container-fluid">
 
 
-
-        <div class="row bg-secondary">
-
-            <p>SUBTLE HEADING</p>
-            <div class="col-md-6 col-md-4">
-            </div>
-
-            <div class="col-md-6">
-                <div class="col-md-6"></div>
-                <p class="d-flex fs-2 txtovrimg">TEXT OVER AN IMAGE</p>
-                <div class=" d-flex">
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque aperiam ipsam inventore quo,
-                        vero amet excepturi esse!</p>
-                </div>
-
-
-            </div>
-        </div>
-        <!-- SECTION form -->
-        <div class="row bg bg-secondary">
-            <div class="col-12 col-md-4">
-
+        <div class="row bg-secondary herobg">
+            <div class="col-md-6 justify-content-end col-md-4 pt-3">
+                <p>SUBTLE HEADING</p>
                 <form>
                     <div class="mb-3">
                         <label for="exampleInputEmail1" class="form-label">Email address</label>
@@ -80,28 +61,53 @@
                     <button type="submit" class="btn btn-primary">Submit</button>
                 </form>
             </div>
+
+
+
+
+
+            <div class="col-md-6 imgStuff justify-content-end heroimg">
+
+                <p class="d-flex fs-2 ">TEXT OVER AN IMAGE</p>
+                <div class=" d-flex">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque aperiam ipsam inventore quo,
+                        vero amet excepturi esse!</p>
+                </div>
+
+
+            </div>
         </div>
+        <!-- SECTION form -->
+
+
         <!-- SECTION hero 1 -->
-        <div class="row bg-success">
+        <!-- TODO look at making this position relative -->
+        <div class="row bg-success position-relative">
 
 
+            <!-- SECTION card 1 -->
 
-
-            <div class="col-12 col-md-6 order-1 order-md-0">
-                <p class="bg-white pt-4 fs-4 justify-center">Lorem ipsum dolor sit amet consectetur adipisicing
+            <div class="col-12 col-md-6 order-1 order-md-0 py-5 px-4">
+                <p class="bg-white fs-4 justify-center">Lorem ipsum dolor sit amet consectetur adipisicing
                     elit.
                     Nesciunt, non.</p>
                 <p class="bg-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt id, quidem
                     consectetur
                     numquam voluptatem est debitis cupiditate consequuntur. Reprehenderit, illo!</p>
             </div>
+            <!-- SECTION card 2 -->
+            <!-- TODO look into using position absolute here to spill this card out of its row, the buttons in aloha lecture are a good reference -->
 
-            <div class="col-12 order-0 order-md-1 col-md-6">
-                <div class="bg-white pt-3"> <i class="pe-3 mdi mdi-circle"></i>I hate Ultimate </div>
-                <div class="bg-white pt-3"> <i class="pe-3 mdi mdi-circle"></i>I hate Ultimate </div>
-                <div class="bg-white pt-3"> <i class="pe-3 mdi mdi-circle"></i>I hate Ultimate </div>
-                <div class="bg-white pt-3"> <i class="pe-3 mdi mdi-circle"></i>I hate Ultimate </div>
-                <div class="bg-white pt-3"> <i class="pe-3 mdi mdi-circle"></i>I hate Ultimate </div>
+            <div class="col-12 order-0 order-md-1 col-md-6  py-5 px-4">
+                <div class="row icons1 position-relative">
+                    <div class="col-12">
+                        <div class="bg-white pt-3"> <i class="pe-3 mdi mdi-circle"></i>I hate Ultimate </div>
+                        <div class="bg-white pt-3"> <i class="pe-3 mdi mdi-circle"></i>I hate Ultimate </div>
+                        <div class="bg-white pt-3"> <i class="pe-3 mdi mdi-circle"></i>I hate Ultimate </div>
+                        <div class="bg-white pt-3"> <i class="pe-3 mdi mdi-circle"></i>I hate Ultimate </div>
+                        <div class="bg-white pt-3"> <i class="pe-3 mdi mdi-circle"></i>I hate Ultimate </div>
+                    </div>
+                </div>
             </div>
             <!-- SECTION hero 2 -->
 
@@ -112,15 +118,15 @@
         <!-- SECTION hero img -->
 
 
-        <div class="row bg-white ">
+        <div class="row bg-white py-5 px-4 ">
 
             <div class="col-12 col-md-4">
                 <img class="img-fluid"
                     src="https://plus.unsplash.com/premium_photo-1669640021387-20bdd6d50c2b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwbHVzLWZlZWR8Mnx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
                     alt="rocks">
-
+                <!-- SECTION card 3 -->
             </div>
-            <div class="col-12 col-md-6 fs-2">
+            <div class="col-12 col-md-6 fs-2 py-5 px-4">
                 <p> <i class="mdi mdi-check"></i>Lorem, ipsum dolor.</p>
                 <p class="d-flex justify-center">Lorem ipsum dolor sit amet.</p>
             </div>
@@ -132,27 +138,56 @@
 
         </div>
 
-        <!-- SECTION 3 icons hero 2 -->
+        <!-- SECTION card 4 -->
 
 
+        <!-- TODO look at using some kind of flex behavior here to center your cards on the y axis, aloha lecture might be a good reference for this -->
+        <div class="row bg-secondary align-items-center">
 
-        <div class="row bg-secondary">
-            <div class="col-12 order-1 order-md-0 col-md-4 fs-2">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, aperiam.</p>
-                <p>Lorem ipsum dolor sit amet</p>
+            <div class="col-12 col-md-4 order-2 order-md-0 py-5 px-4">
+                <div class="row bg-white">
+                    <div class="col-12">
+                        <p class="fs-2">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt, aperiam?</p>
+                        <p>Lorem ipsum dolor sit amet</p>
+                    </div>
+                </div>
             </div>
-            <div class="col-12 col-md-4 order-2 order-md-2">
-                <p class="fs-2">
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt, aperiam?</p>
-                <p>Lorem ipsum dolor sit amet</p>
+
+            <!--SECTION card 5 -->
+
+            <div class="col-12 col-md-4 order-2 order-md-2 py-5 px-4">
+                <div class="row bg-white">
+                    <div class="col-12">
+                        <p class="fs-2">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt, aperiam?</p>
+                        <p>Lorem ipsum dolor sit amet</p>
+                    </div>
+                </div>
             </div>
 
+            <!-- SECTION card 6 -->
 
-            <div class=" order-0 order-md-1 col-md-4">
+            <div class=" order-0 order-md-1 col-12 col-md-4 py-5 px-4 ">
+                <div class="bg-white">
+                    <div class="col-12">
 
-                <i class=" pe-3 mdi mdi-flare"></i>
-                <i class=" pe-3 mdi mdi-flare"></i>
-                <i class=" pe-3 mdi mdi-flare"></i>
+                        <i class=" pe-3 mdi mdi-flare"></i>
+                        <i class=" pe-3 mdi mdi-flare"></i>
+                        <i class=" pe-3 mdi mdi-flare"></i>
+
+                        <p>Lorem ipsum Lorem ipsum dolor Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                            Consequatur, deserunt saepe doloribus rem quo alias dolorem, vel accusantium illo tenetur
+                            ipsa fugit maiores laboriosam accusamus! Amet corporis eligendi iure distinctio! sit amet
+                            consectetur adipisicing elit. Suscipit laborum placeat
+                            molestiae? Aperiam, unde nisi. Placeat labore eligendi laborum dolor suscipit, ea quia
+                            voluptate qui ut reprehenderit explicabo sit dolores. dolor sit amet consectetur adipisicing
+                            elit. Doloribus nostrum ratione atque
+                            officiis
+                            deserunt asperiores neque dolore, labore cupiditate voluptatem optio, blanditiis excepturi
+                            doloremque cumque similique, repellat voluptatibus maxime quis!</p>
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -177,16 +212,17 @@
     <footer class="container-fluid">
         <div class="row">
             <div class="col-12">
-                <div class="row">
-                    <p class="fs-2  bg-success"> footer stuff</p>
-                </div>
+
+
+                <p class="fs-2  bg-success"> footer stuff</p>
             </div>
-            <div class="row">
-                <div class="col-12">
-                    <p>Lorem ipsum dolor sit amet.</p>
-                </div>
+
+            <div class="col-12">
+                <p>Lorem ipsum dolor sit amet.</p>
             </div>
         </div>
+
+
 
 
 
